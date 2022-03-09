@@ -1,0 +1,47 @@
+
+.un-order-list {
+    list-style-type: none;
+}
+.plus-btn {
+    background-color: #0C80F7;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+}
+.minus-btn {
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 5px 12px 5px 12px;
+    margin: 6px;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+.error {
+    color: red;
+    font-weight: bold;
+    margin-left: 6px;
+}
+.input-field {
+    width: 320px;
+    padding: 6px;
+    outline: 0;
+    cursor: pointer;
+    margin: 6px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+.each-li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

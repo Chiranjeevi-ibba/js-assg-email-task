@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text fields</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="main-container">
+        <ul class="un-order-list" id="un-order-list">
+            <li class="each-li">
+                <div class="input-container">
+                    <input id="deafult-btn" class="input-field" type="text" onblur="validation()" placeholder="Enter Email">
+                    <span class="error" id="default-error"></span>
+                </div>
+                <button class="plus-btn"  id="plus-btn" onclick="onClickPlusBtn()">+</button>
+            </li>
+        </ul>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
